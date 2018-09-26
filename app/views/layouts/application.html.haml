@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+	%meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+	%title Myblog
+	= csrf_meta_tags
+	= csp_meta_tag
+	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+	= javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+	%header
+		%nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+			.container
+				%a.navbar-brand{:href => "index.html"} My Blog
+				%button.navbar-toggler.navbar-toggler-right{"aria-controls" => "navbarResponsive", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarResponsive", "data-toggle" => "collapse", :type => "button"}
+					Menu
+					%i.fas.fa-bars
+				#navbarResponsive.collapse.navbar-collapse
+					%ul.navbar-nav.ml-auto
+						%li.nav-item
+							%a.nav-link{:href => "/"} Home
+						%li.nav-item
+							%a.nav-link{:href => "/about"} About
+						%li.nav-item
+							%a.nav-link{:href => "/post"} Sample Post
+						%li.nav-item
+							%a.nav-link{:href => "/contact"} Contact
+	%main
+		= yield
+	%footer
