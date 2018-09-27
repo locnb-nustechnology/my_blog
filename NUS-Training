@@ -1,0 +1,23 @@
+Ruby
+	- Install RVM, Ruby
+	- Rubygem
+	- String, Array, Hash
+	- Loops
+	- Conditional statements
+	- Methods
+
+Rails
+	- Get familiar with a Rails app structure
+	- Start/stop a rails app
+	- Configure new routes
+	- Using layout
+	- How to include new JS, SCSS files to projects
+	- Render view, partials
+	- Using common helpers
+	- Define new helpers
+	- Basic syntax of HAML, SCSS
+	- Basic syntax of CoffeeScript. Tools for converting between JS and CoffeeScript
+	- Understanding i18n
+	- Use t() or i() function to load i18n message
+	- Understanding view testing
+	- Common 'expect' method in Rspec

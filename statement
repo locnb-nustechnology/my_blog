@@ -1,0 +1,101 @@
+Integrating Bootstrap
+ - gem install bootstrap
+ - Insert to gemfile: gem 'bootstrap', '~> 4.1', '>= 4.1.3'
+
+Rake erb to Haml
+ - gem install haml
+ - gem install haml-rails
+ - Insert to gemfile: gem 'haml-rails', '~> 1.0'
+ - Convert all of your .erb views into .haml: rake haml:erb2haml
+
+Config Routing
+ - root "home#index"
+ - resources :posts #include all HTTP Verb
+	get "/posts", to "posts#index"
+	get "/posts/:id", to "posts#show"
+	get "/posts/new", to "posts#new"
+	post "/posts", to "posts#create"  # usually a submitted form
+	get "/posts/:id/edit", to "posts#edit"
+	put "/posts/:id", to "posts#update" # usually a submitted form
+	delete "/posts/:id", to "posts#destroy"
+ - namespace :admin do
+     resources :articles, :comments
+   end
+	HTTP Verb:
+	get "/admin/articles"
+	get "/admin/articles/new"
+	post "/admin/articles"
+	get "/admin/articles/:id"
+	get "/admin/articles/:id/edit"
+	patch "/admin/articles/:id"
+	put "/admin/articles/:id"
+	delete "/admin/articles/:id"
+ - scope: admin do
+     resources :users
+   end
+ - scope with options: module, path
+   scope module: 'admin'do
+     resources :users
+   end
+   or
+   scope :users, path: '/admin/users'
+
+Controller
+ - Create follow style snack_case. Ex: Create Controller User then create name controller is users_controller.rb
+ - Methods and Actions:
+   class ClientsController < ApplicationController
+	def new
+	end
+   end
+ - Parameters
+   class ClientsController < ApplicationController
+   # This action uses query string parameters because it gets run
+   # by an HTTP GET request, but this does not make any difference
+   # to the way in which the parameters are accessed. The URL for
+   # this action would look like this in order to list activated
+   # clients: /clients?status=activated
+   def index
+	if params[:status] == "activated"
+	   @clients = Client.activated
+	else
+	   @clients = Client.inactivated
+	end
+   end
+	# This action uses POST parameters. They are most likely coming
+	# from an HTML form which the user has submitted. The URL for
+	# this RESTful request will be "/clients", and the data will be
+	# sent as part of the request body.
+   def create
+	@client = Client.new(params[:client])
+	if @client.save
+	   redirect_to @client
+	else
+	# This line overrides the default rendering behavior, which
+	# would have been to render the "create" view.
+	   render "new"
+	   end
+	end
+    end
+
+Render - Partials
+ - <% render "admin/form" %>
+
+Haml
+ - <% %> => %
+ - <%= %> => %=
+
+Helpers
+ - image_tag
+
+i18n
+ - Insert: gem 'rails-i18n'
+ - Looking up translations
+ - Interpolating data into translations
+ - Pluralizing translations
+ - Using safe HTML translations (view helper method only)
+ - Localizing dates, numbers, currency
+ - t() is method translate
+
+Rspec
+ - Insert to Gemfile (group :test, :development do) gem 'rspec-rails', '~> 3.0.0'
+ - Run terminal: rails generate rspec:install

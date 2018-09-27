@@ -1,0 +1,30 @@
+app
+  - app/assets
+  - app/controllers
+  - app/helpers
+  - app/mailers
+  - app/models
+  - app/views
+  - app/services
+  - app/decorators
+  - app/workers
+bin
+  - bundle, rails, rake, setup, spring
+config
+  - environments
+  - initializers/assets.rb
+  - locales
+  - config/application.rb
+  - config/database.yml
+  - config/routes.rb
+  - config/secrets.yml
+  - config/initializers/assets.rb
+db
+  - db/seeds.rb
+lib
+log
+public
+test
+tmp
+vendor/assets
+Gemfile
