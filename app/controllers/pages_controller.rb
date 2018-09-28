@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   end
   def about
   end
-  def posts
+  def news
   end
   def contact
   end

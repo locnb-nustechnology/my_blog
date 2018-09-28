@@ -1,0 +1,10 @@
+vi:
+  layouts:
+    application:
+      home: "Trang chủ"
+      about: "Giới thiệu"
+      news: "Tin tức"
+      contact: "Liên hệ"
+  pages:
+    index:
+      hello: "Xin chào"

@@ -12,20 +12,28 @@
   %header
     %nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
       .container
-        %a.navbar-brand{:href => "index.html"} My Blog
+        %a.navbar-brand{:href => "/"} My Blog
         %button.navbar-toggler.navbar-toggler-right{"aria-controls" => "navbarResponsive", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarResponsive", "data-toggle" => "collapse", :type => "button"}
           Menu
           %i.fas.fa-bars
         #navbarResponsive.collapse.navbar-collapse
           %ul.navbar-nav.ml-auto
             %li.nav-item
-              %a.nav-link{:href => "/"} Home
+              %a.nav-link{:href => "/"}
+                = t('.home')
             %li.nav-item
-              %a.nav-link{:href => "/about"} About
+              %a.nav-link{:href => "/about"}
+                = t('.about')
             %li.nav-item
-              %a.nav-link{:href => "/posts"} Sample Post
+              %a.nav-link{:href => "/news"}
+                = t('.news')
             %li.nav-item
-              %a.nav-link{:href => "/contact"} Contact
+              %a.nav-link{:href => "/contact"}
+                = t('.contact')
+          .languages
+            %nav.nav-bar
+              = link_to "EN", locale:"en"
+              = link_to "VN", locale:"vi"
   %main
     = yield
   %footer

@@ -13,6 +13,12 @@
 .container
   .row
     .col-lg-8.col-md-10.mx-auto
+      %h2
+        = t('.hello')
+      %h3
+        = showSlogan
+  .row
+    .col-lg-8.col-md-10.mx-auto
       .post-preview
         %a{:href => "#"}
           %h2.post-title
@@ -33,29 +39,4 @@
           %a{:href => "#"} Start Rails
           on September 18, 2018
       %hr/
-      .post-preview
-        %a{:href => "#"}
-          %h2.post-title
-            Science has not yet mastered prophecy
-          %h3.post-subtitle
-            We predict too much for the next year and yet far too little for the next ten.
-        %p.post-meta
-          Posted by
-          %a{:href => "#"} Start Rails
-          on August 24, 2018
-      %hr/
-      .post-preview
-        %a{:href => "#"}
-          %h2.post-title
-            Failure is not an option
-          %h3.post-subtitle
-            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-        %p.post-meta
-          Posted by
-          %a{:href => "#"} Start Rails
-          on July 8, 2018
-      %hr/
-      / Pager
-      .clearfix
-        %a.btn.btn-primary.float-right{:href => "#"} Older Posts →
 %hr/
