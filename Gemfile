@@ -37,10 +37,13 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use jQuery Lib
-gem 'jquery', '~> 0.0.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 
 # Integrating Bootstrap 4.1.3 in project
 gem 'bootstrap', '~> 4.1', '>= 4.1.3'
+
+# Integrating Frontawesome 4.0
+gem 'fontawesome-rails', '~> 4.0', '>= 4.0.3.2'
 
 # Use haml-rails
 gem 'haml-rails', '~> 1.0'
