@@ -11,5 +11,11 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe PagesHelper, :type => :helper do
-  # pending "add some examples to (or delete) #{__FILE__}"
+
+  describe 'helpers/pages_helper.rb' do
+    it "should output content for slogan" do
+      expect(helper.showSlogan).to eq 'Ruby on Rails sample app'
+    end
+  end
+
 end

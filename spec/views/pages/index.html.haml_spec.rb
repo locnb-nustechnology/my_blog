@@ -1,37 +1,26 @@
 require 'rails_helper'
 
+RSpec.describe PagesController, type: :routing do
+  describe 'routing' do
+    it 'set root routes to pages#index' do
+      expect(get: '/').to route_to('pages#index')
+    end
+
+    it 'routes /about to pages#about' do
+      expect(get: '/about').to route_to('pages#about')
+    end
+
+    it 'routes /news to pages#news' do
+      expect(get: '/news').to route_to('pages#news')
+    end
+
+    it 'routes /contact to pages#contact' do
+      expect(get: '/contact').to route_to('pages#contact')
+    end
+  end
+end
+
 RSpec.describe "pages/index.html.haml", :type => :view do
 
-  it "renders the HTML index page" do
-    render :template => "pages/index.html.haml"
-    expect(rendered).to match /index/
-  end
-
-end
-
-RSpec.describe "pages/about.html.haml", :type => :view do
-
-  it "renders the HTML about page" do
-    render :template => "pages/about.html.haml"
-    expect(rendered).to match /about/
-  end
-
-end
-
-RSpec.describe "pages/news.html.haml", :type => :view do
-
-  it "renders the HTML news page" do
-    render :template => "pages/news.html.haml"
-    expect(rendered).to match /news/
-  end
-
-end
-
-RSpec.describe "pages/contact.html.haml", :type => :view do
-
-  it "renders the HTML contact page" do
-    render :template => "pages/contact.html.haml"
-    expect(rendered).to match /contact/
-  end
 
 end
