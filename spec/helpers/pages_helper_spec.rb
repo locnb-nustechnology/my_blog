@@ -12,9 +12,9 @@ require 'rails_helper'
 # end
 RSpec.describe PagesHelper, :type => :helper do
 
-  describe 'helpers/pages_helper.rb' do
-    it "should output page title" do
-      expect(helper.page_title).to be(yield)
+  describe "#example_text" do
+    it "returns the example text with a helper method" do
+      expect(helper.example_text).to eq("Rails helper example!")
     end
   end
 

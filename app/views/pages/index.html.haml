@@ -1,9 +1,6 @@
 - content_for :title do
   Home page
 
-- content_for :page_title do
-  %h1 This is home page
-
 %header.masthead{:style => "background-image: url(#{image_path("home-bg.jpg")})"}
   .overlay
   .container
@@ -16,7 +13,7 @@
 .container
   .row
     .col-lg-8.col-md-10.mx-auto
-      = page_title{yield(:page_title)}
+      = example_text
   .row
     .col-lg-8.col-md-10.mx-auto
       %h2

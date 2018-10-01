@@ -6278,3 +6278,752 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:02:15 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (592.4ms)
+Completed 500 Internal Server Error in 604ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `page_heading' for #<#<Class:0x00005608c47d62e8>:0x00005608c47ba1d8>):
+    16: .container
+    17:   .row
+    18:     .col-lg-8.col-md-10.mx-auto
+    19:       = page_heading
+    20:   .row
+    21:     .col-lg-8.col-md-10.mx-auto
+    22:       %h2
+  
+app/views/pages/index.html.haml:19:in `_app_views_pages_index_html_haml__1231286326742454793_47297828201340'
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:02:17 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (320.8ms)
+Completed 500 Internal Server Error in 324ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `page_heading' for #<#<Class:0x00005608c47d62e8>:0x00007f0689e0ec28>):
+    16: .container
+    17:   .row
+    18:     .col-lg-8.col-md-10.mx-auto
+    19:       = page_heading
+    20:   .row
+    21:     .col-lg-8.col-md-10.mx-auto
+    22:       %h2
+  
+app/views/pages/index.html.haml:19:in `_app_views_pages_index_html_haml__1231286326742454793_69833029876380'
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:02:37 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (202.5ms)
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `page_heading' for #<#<Class:0x00005608c47d62e8>:0x00007f0689c7e958>):
+    16: .container
+    17:   .row
+    18:     .col-lg-8.col-md-10.mx-auto
+    19:       = page_heading "This is home page"
+    20:   .row
+    21:     .col-lg-8.col-md-10.mx-auto
+    22:       %h2
+  
+app/views/pages/index.html.haml:19:in `_app_views_pages_index_html_haml__1231286326742454793_69833029056800'
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:02:38 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (152.9ms)
+Completed 500 Internal Server Error in 157ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `page_heading' for #<#<Class:0x00005608c47d62e8>:0x00007f068a77d688>):
+    16: .container
+    17:   .row
+    18:     .col-lg-8.col-md-10.mx-auto
+    19:       = page_heading "This is home page"
+    20:   .row
+    21:     .col-lg-8.col-md-10.mx-auto
+    22:       %h2
+  
+app/views/pages/index.html.haml:19:in `_app_views_pages_index_html_haml__1231286326742454793_69833034821560'
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:02:57 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (52.4ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:03:20 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (25.7ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:10:45 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (201.4ms)
+Completed 200 OK in 257ms (Views: 249.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:10:46 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:10:47 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.9ms)
+Completed 200 OK in 62ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:10:47 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:10:47 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (9.3ms)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:10:47 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:11:41 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (16.6ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:11:41 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:14:11 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/nus/locnb/my_blog/app/views/pages/index.html.haml:4: syntax error, unexpected tCONSTANT, expecting ')'
+...en yield(:title) + ' | ' end My Awesome Site
+...                             ^~):
+  
+app/views/pages/index.html.haml:4: syntax error, unexpected tCONSTANT, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:14:13 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/nus/locnb/my_blog/app/views/pages/index.html.haml:4: syntax error, unexpected tCONSTANT, expecting ')'
+...en yield(:title) + ' | ' end My Awesome Site
+...                             ^~):
+  
+app/views/pages/index.html.haml:4: syntax error, unexpected tCONSTANT, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:14:17 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (162.3ms)
+Completed 500 Internal Server Error in 166ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `page_title' for #<#<Class:0x00007fc481acc7e8>:0x00007fc49c19d0a8>
+Did you mean?  page_class):
+    16: .container
+    17:   .row
+    18:     .col-lg-8.col-md-10.mx-auto
+    19:       = page_title "This is home page"
+    20:   .row
+    21:     .col-lg-8.col-md-10.mx-auto
+    22:       %h2
+  
+app/views/pages/index.html.haml:19:in `_app_views_pages_index_html_haml___3552093327469592823_70241204628720'
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:14:27 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:14:28 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (11.4ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:15:30 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:15:31 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:19:57 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:19:58 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.9ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:21:53 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (15.3ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:21:54 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:23:50 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:24:13 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:24:21 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (19.1ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 11:27:00 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:45:15 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (210.4ms)
+Completed 200 OK in 266ms (Views: 257.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi" for 127.0.0.1 at 2018-10-01 13:45:19 +0700
+Processing by PagesController#index as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2018-10-01 13:45:20 +0700
+Processing by PagesController#news as HTML
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (12.2ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/news" for 127.0.0.1 at 2018-10-01 13:45:37 +0700
+Processing by PagesController#news as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/tin-tuc" for 127.0.0.1 at 2018-10-01 13:45:43 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/vi/tin-tuc"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:45:46 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (9.4ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2018-10-01 13:45:47 +0700
+Processing by PagesController#news as HTML
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/news" for 127.0.0.1 at 2018-10-01 13:45:49 +0700
+Processing by PagesController#news as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:45:52 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:48:49 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 36992ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/about" for 127.0.0.1 at 2018-10-01 13:49:30 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"vi"}
+Started GET "/vi/about" for 127.0.0.1 at 2018-10-01 13:52:27 +0700
+Completed 500 Internal Server Error in 176165ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `set_locale'
+app/controllers/application_controller.rb:7:in `set_locale'
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (183.7ms)
+Completed 200 OK in 1294ms (Views: 1277.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/about" for 127.0.0.1 at 2018-10-01 13:52:34 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (207.3ms)
+Completed 200 OK in 1493ms (Views: 1475.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/about" for 127.0.0.1 at 2018-10-01 13:52:37 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (203.0ms)
+Started GET "/en/about" for 127.0.0.1 at 2018-10-01 13:52:38 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (361.2ms)
+Started GET "/vi/about" for 127.0.0.1 at 2018-10-01 13:52:39 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (207.7ms)
+Completed 200 OK in 3304ms (Views: 3284.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3347ms (Views: 3321.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2692ms (Views: 2624.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:52:48 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (328.6ms)
+Completed 200 OK in 1616ms (Views: 1597.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:52:52 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (200.3ms)
+Completed 200 OK in 1538ms (Views: 1520.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/about" for 127.0.0.1 at 2018-10-01 13:52:55 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (216.0ms)
+Completed 200 OK in 1482ms (Views: 1464.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/about" for 127.0.0.1 at 2018-10-01 13:52:58 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (194.1ms)
+Completed 200 OK in 1407ms (Views: 1393.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/about" for 127.0.0.1 at 2018-10-01 13:53:01 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (207.5ms)
+Completed 200 OK in 1461ms (Views: 1443.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/about" for 127.0.0.1 at 2018-10-01 13:53:04 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (204.2ms)
+Completed 200 OK in 1490ms (Views: 1471.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2018-10-01 13:53:06 +0700
+Processing by PagesController#news as HTML
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (308.0ms)
+Completed 200 OK in 1625ms (Views: 1602.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/news" for 127.0.0.1 at 2018-10-01 13:53:09 +0700
+Processing by PagesController#news as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (357.3ms)
+Completed 200 OK in 1554ms (Views: 1536.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/news" for 127.0.0.1 at 2018-10-01 13:53:13 +0700
+Processing by PagesController#news as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (290.0ms)
+Started GET "/vi/news" for 127.0.0.1 at 2018-10-01 13:53:14 +0700
+Processing by PagesController#news as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (473.1ms)
+Completed 200 OK in 2581ms (Views: 2563.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2205ms (Views: 2166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:53:19 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (198.2ms)
+Completed 200 OK in 1498ms (Views: 1481.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:54:11 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (266.5ms)
+Completed 200 OK in 1500ms (Views: 1476.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi/contact" for 127.0.0.1 at 2018-10-01 13:54:16 +0700
+Processing by PagesController#contact as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (186.5ms)
+Completed 200 OK in 1437ms (Views: 1418.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:54:19 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (196.1ms)
+Completed 200 OK in 1476ms (Views: 1457.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/about" for 127.0.0.1 at 2018-10-01 13:54:23 +0700
+Processing by PagesController#about as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (212.7ms)
+Completed 200 OK in 1523ms (Views: 1499.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:54:25 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (217.3ms)
+Completed 200 OK in 1543ms (Views: 1524.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:54:34 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (378.9ms)
+Completed 200 OK in 1621ms (Views: 1603.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi" for 127.0.0.1 at 2018-10-01 13:54:37 +0700
+Processing by PagesController#index as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (324.4ms)
+Completed 200 OK in 1587ms (Views: 1563.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:54:40 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (216.2ms)
+Completed 200 OK in 1513ms (Views: 1494.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:54:42 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (206.3ms)
+Completed 200 OK in 1543ms (Views: 1524.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:54:45 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (215.3ms)
+Completed 200 OK in 1531ms (Views: 1512.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:54:48 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (202.9ms)
+Completed 200 OK in 1428ms (Views: 1410.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:54:50 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (331.9ms)
+Completed 200 OK in 1597ms (Views: 1579.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:56:47 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (337.7ms)
+Completed 200 OK in 1662ms (Views: 1643.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:56:52 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (345.3ms)
+Completed 200 OK in 1636ms (Views: 1612.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:56:57 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (321.6ms)
+Completed 200 OK in 1605ms (Views: 1586.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:57:13 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (327.4ms)
+Completed 200 OK in 1652ms (Views: 1633.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2018-10-01 13:57:16 +0700
+Processing by PagesController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (331.8ms)
+Completed 200 OK in 1653ms (Views: 1634.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2018-10-01 13:57:19 +0700
+Processing by PagesController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (404.4ms)
+Completed 200 OK in 1639ms (Views: 1620.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:57:32 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (177.8ms)
+Completed 200 OK in 255ms (Views: 247.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2018-10-01 13:57:34 +0700
+Processing by PagesController#news as HTML
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:57:35 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 83ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:57:36 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vi" for 127.0.0.1 at 2018-10-01 13:57:37 +0700
+Processing by PagesController#index as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:57:38 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2018-10-01 13:57:39 +0700
+Processing by PagesController#news as HTML
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:57:40 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:57:41 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:57:42 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:57:44 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2018-10-01 13:57:46 +0700
+Processing by PagesController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-10-01 13:57:47 +0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.haml within layouts/application
+  Rendered pages/about.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2018-10-01 13:57:47 +0700
+Processing by PagesController#news as HTML
+  Rendering pages/news.html.haml within layouts/application
+  Rendered pages/news.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-10-01 13:57:48 +0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.haml within layouts/application
+  Rendered pages/contact.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-01 13:57:49 +0700
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.haml within layouts/application
+  Rendered pages/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+

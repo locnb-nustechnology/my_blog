@@ -1,8 +1,8 @@
 module PagesHelper
 
   # Simple example define a helpers
-  def page_title
-    yield
+  def example_text
+    "Rails helper example!"
   end
 
 end
