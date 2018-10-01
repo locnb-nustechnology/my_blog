@@ -1,7 +1,8 @@
 module PagesHelper
 
   # Simple example define a helpers
-  def showSlogan
-    base_slogan = "Ruby on Rails sample app"
+  def page_title
+    yield
   end
+
 end

@@ -1,5 +1,8 @@
 - content_for :title do
-  Contact Page
+  Contact page
+
+- content_for :page_title do
+  %h1 This is contact page
 
 %header.masthead{:style => "background-image: url(#{image_path("contact-bg.jpg")})"}
   .overlay
@@ -13,8 +16,7 @@
 .container
   .row
     .col-lg-8.col-md-10.mx-auto
-      %h3
-        = showSlogan
+      = page_title{yield(:page_title)}
   .row
     .col-lg-8.col-md-10.mx-auto
       %p Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!

@@ -13,8 +13,8 @@ require 'rails_helper'
 RSpec.describe PagesHelper, :type => :helper do
 
   describe 'helpers/pages_helper.rb' do
-    it "should output content for slogan" do
-      expect(helper.showSlogan).to eq 'Ruby on Rails sample app'
+    it "should output page title" do
+      expect(helper.page_title).to be(yield)
     end
   end
 

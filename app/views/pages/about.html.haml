@@ -1,5 +1,8 @@
 - content_for :title do
-  About Page
+  About page
+
+- content_for :page_title do
+  %h1 This is About
 
 %header.masthead{:style => "background-image: url(#{image_path("about-bg.jpg")})"}
   .overlay
@@ -9,12 +12,10 @@
         .page-heading
           %h1 About Page
           %span.subheading This is what I do.
-
 .container
   .row
     .col-lg-8.col-md-10.mx-auto
-      %h3
-        = showSlogan
+      = page_title{yield(:page_title)}
   .row
     .col-lg-8.col-md-10.mx-auto
       %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?
