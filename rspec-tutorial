@@ -1,0 +1,122 @@
+Rspec keywords:
+describe 'do something/methods' do
+  context "do something" do
+    it "do something" do
+      do something
+      expect
+    end
+  end
+end
+
+Matchers:
+eq    : expect(actual).to eq expected
+eql   : expect(actual).to eql expected
+be    : expect(actual).to be expected
+equal : expect(actual).to equal expected
+
+Ex:
+describe "An example of the equality Matchers" do
+
+   it "should show how the equality Matchers work" do
+      a = "test string"
+      b = a
+
+      # The following Expectations will all pass
+      expect(a).to eq "test string"
+      expect(a).to eql "test string"
+      expect(a).to be b
+      expect(a).to equal b
+   end
+
+end
+
+Comparison Matchers:
+>                       : expect(actual).to be > expected
+>=                      : expect(actual).to be >= expected
+<                       : expect(actual).to be < expected
+<=                      : expect(actual).to be <= expected
+be_between inclusive    : expect(actual).to be_between(min, max).inclusive
+be_between exclusive    : expect(actual).to be_between(min, max).exclusive
+match                   : expect(actual).to match /regex/
+
+Ex:
+describe "An example of the comparison Matchers" do
+
+   it "should show how the comparison Matchers work" do
+      a = 1
+      b = 2
+      c = 3
+      d = 'test string'
+
+      # The following Expectations will all pass
+      expect(b).to be > a
+      expect(a).to be >= a
+      expect(a).to be < b
+      expect(b).to be <= b
+      expect(c).to be_between(1,3).inclusive
+      expect(b).to be_between(1,3).exclusive
+      expect(d).to match /TEST/i
+   end
+
+end
+
+Class/Type Matchers:
+be_instance_of      : expect(actual).to be_instance_of(Expected)
+be_kind_of          : expect(actual).to be_kind_of(Expected)
+respond_to          : expect(actual).to respond_to(Expected)
+
+Ex:
+describe "An example of the type/class Matchers" do
+
+   it "should show how the type/class Matchers work" do
+      x = 1
+      y = 3.14
+      z = 'test string'
+
+      # The following Expectations will all pass
+      expect(x).to be_instance_of Fixnum
+      expect(y).to be_kind_of Numeric
+      expect(z).to respond_to(:length)
+   end
+
+end
+
+True/False/Nil Matchers:
+be true       :  expect(actual).to be true
+be false      :  expect(actual).to be false
+be_truthy     :  expect(actual).to be_truthy
+be_falsey     :  expect(actual).to be_falsey
+be_nil        :  expect(actual).to be_nil
+
+Ex:
+describe "An example of the true/false/nil Matchers" do
+   it "should show how the true/false/nil Matchers work" do
+      x = true
+      y = false
+      z = nil
+      a = "test string"
+
+      # The following Expectations will all pass
+      expect(x).to be true
+      expect(y).to be false
+      expect(a).to be_truthy
+      expect(z).to be_falsey
+      expect(z).to be_nil
+   end
+end
+
+Error Matchers
+raise_error(ErrorClass)                     : expect {block}.to raise_error(ErrorClass)
+raise_error("error message")                : expect {block}.to raise_error(“error message”)
+raise_error(ErrorClass, "error message")    : expect {block}.to raise_error(ErrorClass,“error message”)
+
+Ex:
+describe "An example of the error Matchers" do
+   it "should show how the error Matchers work" do
+
+      # The following Expectations will all pass
+      expect { 1/0 }.to raise_error(ZeroDivisionError)
+      expect { 1/0 }.to raise_error("divided by 0")
+      expect { 1/0 }.to raise_error("divided by 0", ZeroDivisionError)
+   end
+end

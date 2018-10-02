@@ -1,0 +1,10 @@
++ Khi tạo route thì cần check coi có route nào tương tự chưa và làm giống vậy, tránh tạo controller nếu không cần thiết - done
+
++ Thử viết helper trong rails - done
+
++ Tìm hiểu về sử dụng nhiều yields trong layout và lệnh content_for - done
+
++ Tìm hiểu về Lazy lookup trong i18n của Rails. Nên thử nghiệm tạo 1 trang view hỗ trợ 2 ngôn ngữ khác nhau - done
+
++ Nên viết test thử rspec phần view cho 1 trang nào đó. E nói Kỳ Anh support thêm phần cấu hình test (capybara)
+
